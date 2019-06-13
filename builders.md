@@ -1,7 +1,7 @@
 # Builders
 
 ### What are Builders?
-Builders are a way of creating new objects from classes that maybe have a lot of
+Builders are a way of creating new objects from classes that have more than 4
 parameters to initialise in the constructor, in a readable manner. They allow you
 to create new objects without the use of the `new` keyword or a Factory.
 
@@ -178,7 +178,7 @@ if ($person->isOfLegalDrinkingAge()) {
 
 ---
 
-There is a very small, unrealistic example of a Builder pattern in-use, but there
+This is a very small, unrealistic example of a Builder pattern in-use, but there
 are some things to note.
 
 - Builders are only really useful with classes that have very large constructors.
